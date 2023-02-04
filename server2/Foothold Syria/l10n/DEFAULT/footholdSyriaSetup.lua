@@ -654,47 +654,6 @@ zones.victor:registerTrigger('destroyed', function(event, sender)
 	trigger.action.outTextForCoalition(2,'Blackhawk crew rescued\n+500 credits',20)
 end, 'disableins6')
 
-zones.taftanaz:registerTrigger('captured', function(event, sender)
-	updatePlayerSlots()
-end, 'disableins7')
-
-
-function updatePlayerSlots()
-	local zn = zones.taftanaz
-	if zn and zn.side==1 then
-		trigger.action.setUserFlag("Taftanaz SA342Mistral", 100)
-		trigger.action.setUserFlag("Taftanaz AH64D", 100)
-		trigger.action.setUserFlag("Taftanaz AH64D-1", 100)
-		trigger.action.setUserFlag("Taftanaz AV-8B", 100)
-		trigger.action.setUserFlag("Taftanaz KA50", 100)
-		trigger.action.setUserFlag("Taftanaz KA50 3", 100)
-		trigger.action.setUserFlag("Taftanaz KA50 3-1", 100)
-		trigger.action.setUserFlag("Taftanaz KA50-1", 100)
-		trigger.action.setUserFlag("Taftanaz MI24", 100)
-		trigger.action.setUserFlag("Taftanaz MI24-1", 100)
-		trigger.action.setUserFlag("Taftanaz MI8", 100)
-		trigger.action.setUserFlag("Taftanaz SA342L", 100)
-		trigger.action.setUserFlag("Taftanaz SA342M", 100)
-		trigger.action.setUserFlag("Taftanaz SA342Minigun", 100)
-	elseif zn and zn.side==2 then
-		trigger.action.setUserFlag("Taftanaz SA342Mistral", 0)
-		trigger.action.setUserFlag("Taftanaz AH64D", 0)
-		trigger.action.setUserFlag("Taftanaz AH64D-1", 0)
-		trigger.action.setUserFlag("Taftanaz AV-8B", 0)
-		trigger.action.setUserFlag("Taftanaz KA50", 0)
-		trigger.action.setUserFlag("Taftanaz KA50 3", 0)
-		trigger.action.setUserFlag("Taftanaz KA50 3-1", 0)
-		trigger.action.setUserFlag("Taftanaz KA50-1", 0)
-		trigger.action.setUserFlag("Taftanaz MI24", 0)
-		trigger.action.setUserFlag("Taftanaz MI24-1", 0)
-		trigger.action.setUserFlag("Taftanaz MI8", 0)
-		trigger.action.setUserFlag("Taftanaz SA342L", 0)
-		trigger.action.setUserFlag("Taftanaz SA342M", 0)
-		trigger.action.setUserFlag("Taftanaz SA342Minigun", 0)
-	end
-end
-
-
 bc:addMonitoredROE('cruise1')
 local cruiseMissileTargetMenu = nil
 bc:registerShopItem('cruisemsl', 'Cruise Missile Strike', 500, function(sender)
@@ -1495,7 +1454,6 @@ lc = LogisticCommander:new({battleCommander = bc, supplyZones = supplyZones})
 lc:init()
 
 bc:loadFromDisk() --will load and overwrite default zone levels, sides, funds and available shop items
-updatePlayerSlots()
 bc:init()
 bc:startRewardPlayerContribution(15,{infantry = 10, ground = 20, sam = 40, airplane = 50, ship = 250, helicopter=50, crate=200, rescue = 100})
 HercCargoDropSupply.init(bc)
