@@ -1,0 +1,62 @@
+dictionary = 
+{
+    ["DictKey_subtitle_46"] = "",
+    ["DictKey_subtitle_50"] = "",
+    ["DictKey_subtitle_38"] = "",
+    ["DictKey_descriptionText_1"] = "Original mission at https://www.digitalcombatsimulator.com/en/files/3324743/ and adapted for 167th DGN.\
+\
+Helpful video by @Diesel_Thunder to get you started: www.youtube.com/watch?v=vzDlYHViREA\
+\
+To capture a zone, first you need to destroy all enemy forces deployed there, in order to turn the zone neutral.\
+\
+Neutral zones can be captured either by assisting friendly AI supply aircraft, which periodically spawn at friendly zones, to land at them, or by loading up supplies and dropping them off yourself using helicopters.\
+\
+Friendly zones can be upgraded with extra units to improve their defense using the same mechanics as capturing.\
+\
+If a zone has a group that is missing units, a supply delivery will first restore that group. An upgrade will only occur if all existing groups are in good condition.\
+\
+These rules are common to all zones, but some zones can provide special bonuses as well, like friendly air patrols, AI air support, or unlock new spawn points.\
+\
+The enemy AI will also launch attacks to recapture lost zones, air patrols to protect their airspace and supply deliveries to reinforce their defenses, so plan accordingly.\
+\
+Feel free to use the map to get an idea of what is happening, and use the F10 radio menu to get a report about any of the zones.\
+\
+Some spawns will be blocked until you capture the zone they are in. The name of the required zone can be found in the unit/group name on the spawn menu. \
+\
+Some zones have critical structures that, once destroyed, will permanently disable the zone, making it uncapturable for both sides. You can make use of this to easily deny the benefits of a zone for the enemy, at the cost of not being able to make use of it in the future.\
+\
+Certain zones are not meant to be captured at all. These usually offer certain bonuses, or handicap the enemy if cleared.\
+\
+You can earn credits that can be used to call in support aircraft.\
+To call in support you can either use the F10 Radio menu, or use map markers (place a map marker anywhere, and set its label to \"help\" to display available commands)\
+\
+Earn credits by:\
+\
+Destroying enemy units and landing at a friendly zone to claim your kills\
+Capturing certain zones that provide a steady income\
+Delivering supplies to friendly zones\
+Rescuing downed pilots and dropping them off at friendly zones.\
+Certain missions that periodically appear will reward credits upon completion",
+    ["DictKey_descriptionBlueTask_3"] = "Friendly airbases at the start: Incirlik, Carrier Group, FOB Alpha\
+\
+Darkstar 252.00 AM (Support AWACS South)\
+Overlord 253.00 AM (Support AWACS North)\
+\
+Forestal 127.50 AM, TCN 11X, ICLS 11, Link4 336.00 MHz\
+Tarawa 128.50 AM, TCN 12X\
+Invincible 129.5 AM. TCN 13X\
+\
+Arco 254.00 AM, TCN 33X (Spawns after Hama captured)\
+Shell 256.00 AM, TCN 34X (Spawns after Aleppo captured)",
+    ["DictKey_subtitle_42"] = "",
+    ["DictKey_ActionText_25"] = "",
+    ["DictKey_subtitle_10"] = "",
+    ["DictKey_subtitle_44"] = "",
+    ["DictKey_descriptionNeutralsTask_4"] = "",
+    ["DictKey_sortie_5"] = "",
+    ["DictKey_subtitle_48"] = "",
+    ["DictKey_subtitle_40"] = "",
+    ["DictKey_subtitle_36"] = "",
+    ["DictKey_ActionText_21"] = "return false",
+    ["DictKey_descriptionRedTask_2"] = "",
+} -- end of dictionary

@@ -1,0 +1,9 @@
+mapResource = 
+{
+    ["ResKey_ImageBriefing_31"] = "image.jpg",
+    ["ResKey_Action_6"] = "mist_4_5_107.lua",
+    ["ResKey_Action_24"] = "cancel.ogg",
+    ["ResKey_Action_27"] = "footholdSyriaSetup.lua",
+    ["ResKey_Action_22"] = "ding.ogg",
+    ["ResKey_Action_26"] = "zoneCommander.lua",
+} -- end of mapResource
